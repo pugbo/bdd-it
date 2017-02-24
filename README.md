@@ -11,9 +11,14 @@ Progetto allegato al meeting PugBO del 17 marzo 2017
 - [Scaricare il Firefox WebDriver](https://github.com/mozilla/geckodriver/releases/) per Selenium 
 - Configurare il proprio behat.yml
 
+## Attività preliminari
+
+- `composer install`
+
 ## Svolgimento dei test
 
-`php bin/behat features/[test-singolo].feature`
+- `php bin/behat -dl` per vedere tutti i passi componibili
+- `php bin/behat features/[test-singolo].feature`
 
 ## Bibliografia
 
