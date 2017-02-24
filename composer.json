@@ -1,12 +1,11 @@
 {
-    "name": "rer/testsuite",
-    "description": "Progetto per test di accettazione",
+    "name": "pugbo/bdd-it",
+    "description": "Progetto BDD in italiano",
     "type": "project",
     "license": "GPLv3",
     "authors": [
         {
-            "name": "Pierluigi Tassi",
-            "email": "pierluigi.tassi@regione.emilia-romagna.it"
+            "name": "Tassoman"
         }
     ],
     "minimum-stability": "stable",

@@ -2,8 +2,8 @@ default:
  extensions:
   Behat\MinkExtension:
    browser_name: firefox
-   base_url: http://pugbo.grusp.it
+   base_url: http://bologna.grusp.org/
    files_path: %paths.base%/resources
    goutte: ~
    selenium2:
-     wd_host: http://10.11.2.84:4444/wd/hub
+     wd_host: http://127.0.0.1:4444/wd/hub
