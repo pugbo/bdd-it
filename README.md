@@ -25,3 +25,4 @@ Progetto allegato al meeting PugBO del 17 marzo 2017
 - [Documentazione Behat](http://behat.org/en/latest/guides.html)
 - [Documentazione MinkDriver + Selenium](http://mink.behat.org/en/latest/drivers/selenium2.html)
 - [Documentazione Selenium e i browsers](http://www.seleniumhq.org/about/platforms.jsp#browsers)
+- [PhpStorm feature for Scenario steps translation](https://twitter.com/tassoman/status/809396676364562433)
