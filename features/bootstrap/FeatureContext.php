@@ -71,8 +71,6 @@ class FeatureContext extends MinkContext
         $this->getSession()->stop();
     }
 
-}
-
     /**
      * @Given /^(?:|io )passo su "([^"]*)"$/
      */
@@ -89,3 +87,4 @@ class FeatureContext extends MinkContext
         }
     }
 
+}
