@@ -72,3 +72,20 @@ class FeatureContext extends MinkContext
     }
 
 }
+
+    /**
+     * @Given /^(?:|io )passo su "([^"]*)"$/
+     */
+    public function passoSu($selector)
+    {
+        $element = $this->getSession()->getPage()->find('css', $selector);
+        if (null === $element) {
+            throw new \InvalidArgumentException(
+                sprintf('Could not find CSS selector: %s', $selector)
+            );
+        } else {
+            $element->focus();
+            $element->mouseOver();
+        }
+    }
+
